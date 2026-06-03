@@ -23,7 +23,7 @@ public class CreateConnection {
     
     public CreateConnection(){
     InputStream in = null;
-    String path= " Colocar aca la ubicacion de su archivo";
+    String path= "C:\\Users\\umg.LABJOC\\Documents\\NetBeansProjects\\ClinicaMVC\\src\\connection\\db_properties.properties";
     
     try {
         in = Files.newInputStream(Paths.get(path)); //leer el contenido en bytes del archivo db_config

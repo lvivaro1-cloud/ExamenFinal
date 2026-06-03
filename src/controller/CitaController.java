@@ -1,7 +1,7 @@
 package controller;
 
 import model.CitaModel;
-import dao.citaDao;
+import dao.CitaDao;
 import java.util.Date;
 import java.util.List;
 
